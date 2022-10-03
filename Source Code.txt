@@ -1,0 +1,25 @@
+def BMI ():
+
+        a = float(input("Enter your height in meters\n"))
+        b = float(input("Enter your weight in Kilo Grams\n"))
+
+        BMI = b/a**2
+
+        print("Your BMI is\n",BMI)
+
+        
+
+
+
+BMI ()
+
+def main():
+
+#to make sure the user input is in caps upper comman is used 
+
+    while input("Want to check again ? (Y/N)").upper() == "Y":
+
+        BMI()
+
+
+main()
